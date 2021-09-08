@@ -1,0 +1,24 @@
+{
+  "name": "json-server-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "generate-data": "node generate-data.js"
+  },
+  "author": "vuongute",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "json-server": "^0.16.3",
+    "json-server-auth": "^2.1.0",
+    "moment": "^2.29.1",
+    "query-string": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
